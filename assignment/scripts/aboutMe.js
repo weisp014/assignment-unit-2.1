@@ -44,9 +44,6 @@ else {
 if (luckyNumber == 2 && adventurous){
     console.log('Roll the dice!');
 }
-else {
-
-}
 // 15 - Write a conditional that console logs "I can have more pets!" 
 //if the value of `pets` is less than the value of `allowedPets`,
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
@@ -71,15 +68,14 @@ else {
 let mostPets;
 if (pets > friendsPets){
     let mostPets = pets;
-    console.log(mostPets);
+    console.log('mostPets:',mostPets);
 }
 else {
     let mostPets = friendsPets;
-    console.log(mostPets);
+    console.log('mostPets:',mostPets);
 }
 console.log('pets:',pets);
 console.log('friendsPets:',friendsPets);
-console.log('mostPets: ',mostPets);
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
