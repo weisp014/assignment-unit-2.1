@@ -98,5 +98,7 @@ switch (luckyNumber){
 }
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
-
+let result = adventurous?
+    "Adventures are great!":"Why don't we stay home?";
+    console.log(result);
 
